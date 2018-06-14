@@ -39,6 +39,7 @@ function analyticsTrackingCode(config) {
     "})(window,document,'script','https://www.google-analytics.com/analytics.js','" + config.globalVariable + "');",
     "",
     "" + config.globalVariable + "('create', '" + config.webPropertyId + "', " + gaConfig + ");",
+    "" + config.globalVariable + "('require', 'ecommerce');",
     "</script>"
   ];
 
